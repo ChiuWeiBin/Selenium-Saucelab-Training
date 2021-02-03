@@ -1,5 +1,5 @@
 //filename: tests/TestLogin.java
-package companyname;
+package tests;
 
 import static org.junit.Assert.assertTrue;
 import org.junit.Test;
@@ -18,7 +18,7 @@ public class TestLogin {
     public void setUp() {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\chiu\\chromedriver_win32\\chromedriver.exe");
         ChromeOptions browserOptions = new ChromeOptions();
-        browserOptions.setCapability("browserVersion", "86.0");
+        browserOptions.setCapability("browserVersion", "88.0");
         driver = new ChromeDriver(browserOptions);
     }
 
